@@ -188,6 +188,7 @@ main {
     font-weight: 500;
     line-height: 1.9rem;
     color: var(--grey);
+    text-align: center;
     /* border-bottom: 1px solid #faf8f7; */
     background-color: var(--just-white);
 }
@@ -243,7 +244,7 @@ main {
     background-color: var(--soft-orange);
     border-radius: 8px;
 }
-.commissions-table--date {
+.commissions-table--date1 {
     width: 190px;
     height: 31px;
     margin: 0 auto;
@@ -257,4 +258,11 @@ main {
     margin: 7px;
     font-size: 1.2rem;
     line-height: 1.5px;
+}
+.main-currency-table .currency-table--title1 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
 }
